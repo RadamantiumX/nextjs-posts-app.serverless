@@ -1,6 +1,13 @@
+import React from "react"
+import { ListOfPosts } from "./ListOfPosts"
+
 // El nombre por defecto en la RUTA siempre tiene q ser page.jsx
-export default function PostsPage() {
+export default async function PostsPage() {
+    
+
     return (
-        <h1>Aqui mostramos los POSTS</h1>
+        <section>
+           <ListOfPosts/>
+        </section>
     )
 }

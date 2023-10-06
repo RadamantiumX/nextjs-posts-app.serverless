@@ -2,7 +2,8 @@
 // Incluimos el experimental para el ROUTING
 const nextConfig = {
   
-  reactStrictMode: true,
+  reactStrictMode: true
+  
 }
 
 module.exports = nextConfig
